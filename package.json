@@ -1,7 +1,7 @@
 {
   "name": "pro01",
   "version": "0.1.0",
-  "homepage": "https://theju-bot.github.io/pro01_color_viewer",
+  "homepage": "https://theju-bot.github.io/pro1_color_viewer",
   "private": true,
   "dependencies": {
     "react": "^19.1.1",
