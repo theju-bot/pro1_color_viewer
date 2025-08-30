@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .color {
-  width: 55vh;
+  width: 55vw;
   height: 55vh;
   display: grid;
   place-content: center;

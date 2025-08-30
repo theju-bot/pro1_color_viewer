@@ -1,5 +1,5 @@
 input {
-  width: 55vh;
+  width: 55vw;
   height: 8vh;
   border-radius: 0.5rem;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),
@@ -10,7 +10,7 @@ input {
 }
 
 button {
-  width: 55vh;
+  width: 55vw;
   height: 8vh;
   border-radius: 0.5rem;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),
