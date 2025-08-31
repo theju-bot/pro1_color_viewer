@@ -21,3 +21,16 @@ code {
   justify-content: center;
   gap: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+  .form {
+    margin-bottom: 10vh;
+  }
+}
+
+@media(prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: white;
+  }
+}

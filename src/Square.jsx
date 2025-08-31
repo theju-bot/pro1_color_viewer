@@ -3,8 +3,13 @@ import './Square.css';
 
 const Square = ({ input, coloring }) => {
   const color = {
-    color: coloring ? 'black' : 'white',
-    backgroundColor: input === 'Empty Value' ? 'white' : input,
+    color: coloring ? 'white' : 'black',
+    backgroundColor:
+      input === 'Empty Value' && coloring
+        ? 'black'
+        : input === 'Empty Value' && !coloring
+        ? 'white'
+        : input,
     borderRadius: '5px',
   };
   console.log(input);
@@ -16,6 +21,6 @@ const Square = ({ input, coloring }) => {
 };
 
 Square.defaultProps = {
-  input: 'Empty Color Value',
-}
+  input: 'Empty Value',
+};
 export default Square;

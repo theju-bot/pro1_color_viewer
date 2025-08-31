@@ -13,7 +13,7 @@ const Input = ({ handleInput, colorToggle }) => {
     ></input>
     <button 
     onClick={colorToggle}>
-      Toggle Text Color
+      Toggle Color
     </button>
     </>
   );
